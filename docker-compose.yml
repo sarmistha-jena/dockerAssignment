@@ -1,0 +1,10 @@
+version: "3.0"
+
+services:
+  app:
+    image: sarmistha1989/testapp:latest
+    restart: always
+
+  db:
+    image: sarmistha1989/testdb:latest
+    restart: always
